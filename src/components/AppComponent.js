@@ -1,7 +1,7 @@
 import React from "react";
 
-const AppComponent = () => {
-  return <div>ApComponent</div>;
+const AppComponent = (props) => {
+  return <div>{props}</div>;
 };
 
 export default AppComponent;

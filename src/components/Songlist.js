@@ -1,7 +1,8 @@
 import React from "react";
+import reactRedux from "react-redux";
 
 const Songlist = () => {
   return <div>Songlist</div>;
 };
 
-export default Songlist;
+export default reactRedux.connect()(Songlist);
